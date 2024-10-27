@@ -1,5 +1,5 @@
-train: ../train/images
-val: ../valid/images
+train: https://github.com/Sarthak-Kumar21/Traffic_object_detection/raw/main/Vehicle_Detection_Image_Dataset/train/images
+val: https://github.com/Sarthak-Kumar21/Traffic_object_detection/raw/main/Vehicle_Detection_Image_Dataset/valid/images
 
 nc: 1
 names: ['Vehicle']

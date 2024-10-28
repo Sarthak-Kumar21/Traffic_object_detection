@@ -1,0 +1,30 @@
+# Deep Learning Framework
+torch>=2.0.0                 # PyTorch for training and inference
+
+# Object Detection Framework
+ultralytics>=8.0.0           # YOLOv8 for object detection and training
+
+# Image and Video Processing
+opencv-python                # For handling video streams and image transformations
+pillow                       # For image processing tasks (e.g., displaying images)
+scikit-image                 # Additional utilities for image manipulation
+
+# Data Handling and Numerical Operations
+numpy                        # For numerical and array operations
+pandas                       # For data manipulation and analysis
+
+# Visualization
+matplotlib                   # For plotting graphs and visualizations
+seaborn                      # For creating heatmaps and advanced visualizations
+
+# Utilities
+tqdm                         # For progress bars in loops and iterations
+requests                     # For fetching data from URLs (e.g., downloading images)
+
+# Optional: Hardware acceleration (if available)
+onnxruntime-gpu              # For ONNX model inference with GPU support
+tensorrt                     # For optimizing and deploying models with NVIDIA GPUs (TensorRT)
+
+# Jupyter Notebook Utilities
+jupyter                      # If running in a notebook environment
+ipython                      # Enhanced interactive console for Jupyter

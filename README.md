@@ -79,7 +79,7 @@ Configured visual appearance of Seaborn plots for initial visualization.
 
 3. **Model Selection**: The YOLOv8 suite presents five distinct models: nano, small, medium, large, and xlarge. A clear trend emerges from the data: as model size increases, there's a notable improvement in mAP, indicating enhanced accuracy. Conversely, this augmentation comes at the cost of speed, with larger models being slower. All models adhere to a standard input size of 640x640 pixels, optimizing performance across diverse applications. I have used nano model.
 
-    ![Performance Tradeoffs](https://github.com/FarzadNekouee/YOLOv8_Traffic_Density_Estimation/blob/master/images/YOLOv8_object_detection_models.jpg?raw=true)
+    ![Performance Tradeoffs](https://github.com/Sarthak-Kumar21/Traffic_object_detection/blob/main/Screenshots/YOLO%20Model%20Statistics.jpg?raw=true)
 
 
 4. **Dataset Exploration**: From uploaded dataset onto github, I have used requests library and Github API URL to list out the folder contents. By initializing an empty set and iterating over the train dataset folder, I have calculated the total number of images. Additional check is put to check if all images are of the same size.
@@ -208,6 +208,8 @@ Configured visual appearance of Seaborn plots for initial visualization.
     )
     ```
 8. **Train Output files**
+
+    ![Output](https://github.com/Sarthak-Kumar21/Traffic_object_detection/blob/main/Screenshots/Post_training_metrics.jpg?raw=true)
     ```python
     args.yaml					                        P_curve.png	        train_batch2.jpg
     confusion_matrix_normalized.png	                    PR_curve.png        val_batch0_labels.jpg
@@ -218,7 +220,7 @@ Configured visual appearance of Seaborn plots for initial visualization.
     labels.jpg					                        train_batch1.jpg
     ```
 
-    Here’s a rundown of each item:
+    Here's a rundown of each item:
 
     1. **Weights Folder**: Contains the 'best.pt' and 'last.pt' files, which are the best and most recent weights of our trained model respectively.
     2. **Args**: A file that stores the arguments or parameters that were used during the training process.
@@ -226,10 +228,6 @@ Configured visual appearance of Seaborn plots for initial visualization.
     4. **Events File**: Contains logs of events that occurred during training, useful for debugging and analysis.
     5. **F1 Curve**: Illustrates the F1 score of the model over time, balancing precision and recall.
     6. **Labels**: Shows the distribution of different classes within the dataset and their correlation.
-    <!-- 7. **P Curve, PR Curve, R Curve**: These are Precision, Precision-Recall, and Recall curves, respectively, providing insights into the trade-offs between different metrics at various thresholds.
-    8. **results**: This csv file captures a comprehensive set of performance metrics recorded at each epoch during the model's training process.
-    9. **Train Batch Images**: Sample images from the training set with model predictions overlaid, useful for a quick visual check of model performance.
-    10. **Validation Batch Images**: Similar to train batch images, these are from the validation set and include both labels and predictions, providing a glimpse into how well the model generalizes. --> 
 
 9. **Model Evaluation Analysis** I will use the following factors:  
     1. Learning Curve Analysis

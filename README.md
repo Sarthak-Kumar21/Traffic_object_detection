@@ -207,20 +207,11 @@ Configured visual appearance of Seaborn plots for initial visualization.
     seed=0                   # Random seed for reproducibility
     )
     ```
-8. **Train Output files**
+8. **Output files post training**
 
     ![Output](https://github.com/Sarthak-Kumar21/Traffic_object_detection/blob/main/Screenshots/Post_training_metrics.jpg?raw=true)
-    ```python
-    args.yaml					                        P_curve.png	        train_batch2.jpg
-    confusion_matrix_normalized.png	                    PR_curve.png        val_batch0_labels.jpg
-    confusion_matrix.png				                R_curve.png	        val_batch0_pred.jpg
-    events.out.tfevents.1730032281.abdd5cf7c7ed.310.0   results.csv	        val_batch1_labels.jpg
-    F1_curve.png					                    results.png	        val_batch1_pred.jpg
-    labels_correlogram.jpg				                train_batch0.jpg    weights
-    labels.jpg					                        train_batch1.jpg
-    ```
-
-    Here's a rundown of each item:
+  
+    Rundown of each item:
 
     1. **Weights Folder**: Contains the 'best.pt' and 'last.pt' files, which are the best and most recent weights of our trained model respectively.
     2. **Args**: A file that stores the arguments or parameters that were used during the training process.

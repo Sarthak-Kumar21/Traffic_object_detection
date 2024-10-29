@@ -1,4 +1,4 @@
-# 🚗 Real-Time Traffic Density Estimation with YOLOv8
+# 🚗 Traffic Object Detection with YOLOv8
 ![Traffic Density Estimation](https://github.com/Sarthak-Kumar21/Traffic_object_detection/blob/main/Vehicle_Detection_Image_Dataset/cover_picture.jpg?raw=true)
 
 
